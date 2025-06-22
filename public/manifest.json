@@ -1,0 +1,35 @@
+
+{
+  "name": "My Calendar & Tasks Widget",
+  "short_name": "MyWidget",
+  "description": "A Windows 11 widget for calendar and tasks management",
+  "version": "1.0.0",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#0078D4",
+  "background_color": "#1e293b",
+  "start_url": "/",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "permissions": [
+    "notifications"
+  ],
+  "widget": {
+    "name": "Calendar & Tasks",
+    "description": "View your calendar events and manage tasks",
+    "author": "MyWidget Team",
+    "homepage": "https://mywidget.app",
+    "keywords": ["calendar", "tasks", "productivity", "outlook", "todo"],
+    "screenshots": [],
+    "size": {
+      "width": 320,
+      "height": 480
+    }
+  }
+}
